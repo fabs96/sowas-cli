@@ -4,12 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import pe.edu.upn.clinica.model.entity.Cita;
 import pe.edu.upn.clinica.model.entity.Usuario;
 import pe.edu.upn.clinica.model.repository.UsuarioRepository;
 import pe.edu.upn.clinica.service.UsuarioService;
-
+@Service
 public class UsuarioServiceImpl implements UsuarioService {
 
 	@Override
